@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="task1.css">
+    <script src="task1.js" defer></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">WEB<span>SITE</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Features</a></li>
+            <li><a href="#portfolio" class="nav-link">Project</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section home">
+        <div class="content">
+            <span class="tag">INTERACTIVE WEB DESIGN</span>
+            <h1>A navigation menu that <span>reacts to you.</span></h1>
+            <p>
+                Scroll down and watch the menu change color. Hover over any
+                menu item to see it light up.
+            </p>
+            <a href="#about" class="button">Start scrolling ↓</a>
+        </div>
+        <div class="hero-circle"></div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="section-content">
+            <span class="tag">ABOUT</span>
+            <h2>Simple, smooth and interactive</h2>
+            <p>
+                This project uses HTML for the structure, CSS for the design
+                and JavaScript for the interaction. The menu stays fixed at
+                the top, so it is always visible while you scroll.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="section services">
+        <div class="section-content">
+            <span class="tag">FEATURES</span>
+            <h2>What does the menu do?</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">✦</div>
+                    <h3>Hover effect</h3>
+                    <p>A menu item changes its background and text color when the mouse is over it.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">↕</div>
+                    <h3>Scroll effect</h3>
+                    <p>The navbar turns dark after you scroll, and the current section is highlighted.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">▣</div>
+                    <h3>Responsive</h3>
+                    <p>On a phone the menu collapses into a ☰ button that opens and closes.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+        <div class="section-content">
+            <span class="tag">PROJECT</span>
+            <h2>Made with the basics.</h2>
+            <p>
+                No libraries or frameworks were used. Everything is written
+                with plain HTML, CSS and JavaScript.
+            </p>
+            <div class="project-label">HTML + CSS + JAVASCRIPT</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="section-content">
+            <span class="tag">CONTACT</span>
+            <h2>Thanks for visiting!</h2>
+            <p>This navigation menu was built as an internship task.</p>
+            <a href="#home" class="button">Back to top ↑</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Interactive Navigation Menu</p>
+    </footer>
+
+</body>
+</html>
