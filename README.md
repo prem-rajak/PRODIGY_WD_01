@@ -13,8 +13,8 @@ The navigation menu provides an interactive and user-friendly way to navigate th
 - User-friendly interface
 
 ## Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Internship Details
